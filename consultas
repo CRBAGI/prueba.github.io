@@ -1,0 +1,8 @@
+consulta por id
+SELECT * FROM clientes WHERE idcli = 1;
+
+
+UPDATE clientes SET nombre = 'Mi amor', apellidos = 'Garcia Arrevillaga', email = 'esmeralda@gmail.com', tel = '9622147611' WHERE idcli = 5;
+
+
+ //echo "<button onclick=window.location.href='Modificar.php'>Modificar a otro</button>";
